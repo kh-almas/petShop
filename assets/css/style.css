@@ -1,0 +1,894 @@
+/*for 'col's full height*/
+body,
+section{
+    overflow-x: hidden;
+}
+
+nav{
+    z-index: 999999;
+}
+
+.section{
+    padding: 80px 0;
+}
+
+.section_background{
+    background-color: #FAA935;
+}
+
+.col>*{
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+.form-control:focus{
+    border-color:#CCC;
+    outline:0;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+
+a:focus,
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+.pointer {cursor: pointer;}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.double_container{
+    margin: 0 12rem;
+}
+
+.border-bottom-1{
+    border: 5px solid #2980BB;
+}
+
+.theme_text_color{
+    color: #00AFEF;
+}
+
+.booking_button{
+    padding: 10px 14px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.booking_button:hover{
+    padding: 8px 11px;
+    margin: 20px 11px 4px;
+    transition: 0.2s;
+}
+
+.f-10{
+    font-size: 10px;
+}
+
+.f-15{
+    font-size: 15px;
+}
+
+.f-20{
+    font-size: 20px;
+}
+
+.f-25{
+    font-size: 25px;
+}
+
+.f-22{
+    font-size: 22px;
+}
+
+.f-30{
+    font-size: 30px;
+}
+
+.f-35{
+    font-size: 35px;
+}
+
+.f-40{
+    font-size: 40px;
+}
+
+.w-30{
+    width:30%!important
+}
+
+.w-35{
+    width:35%!important
+}
+
+.w-40{
+    width:40%!important
+}
+
+.w-45{
+    width:45%!important
+}
+
+.w-55{
+    width:55%!important
+}
+
+.w-60{
+    width:60%!important
+}
+
+.w-65{
+    width:65%!important
+}
+
+.w-70{
+    width:70%!important
+}
+
+.w-80{
+    width:80%!important
+}
+
+.w-85{
+    width:85%!important
+}
+
+.w-90{
+    width:90%!important
+}
+
+.w-95{
+    width:95%!important
+}
+
+@media (min-width: 768px) {
+    .site_logo{
+        width: 400px !important;
+    }
+
+    .comfortable_pet_hotel_img{
+        width: 500px !important;
+    }
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+/* header css start */
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0!important;
+}
+
+@media (max-width: 767px)
+{
+    .small_nav{
+        flex-direction: column!important;
+    }
+    .small_nav li{
+        display: inline;
+    }
+    .nav-item{
+        margin: 10px 0;
+    }
+}
+/* header css end */
+
+
+.paralax{
+    background-image: url("../img/index/pet-shop-grooming-kucing-anjing-memandikan-hewan-peliharaan-bg-rev.jpg");
+    background-color: aliceblue;
+    background-attachment: fixed;
+    background-position: top left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: -2;
+}
+
+.slider{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+}
+
+.slider_image{
+    width: 500px;
+    height: 300px;
+}
+.slider_image img{
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width: 518px){
+    .slider{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .slider_image{
+        width: 100%;
+        height: 100%;
+    }
+    .slider_image img{
+        width: 100%;
+        height: 100%;
+
+    }
+}
+
+.link_section{
+    background-color: #41D0FF;
+    padding-bottom: 70px;
+    z-index: -3;
+}
+
+.link_section_layer1{
+    top: -70px;
+    padding: 50px;
+    position: relative;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+.link_section_layer1:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #41D0FF;
+    opacity: .5;
+    border-radius: 25px;
+    z-index: -1;
+}
+
+.link_sections_link{
+    color: #2D96C2;
+}
+
+.link_sections_link:hover{
+    text-decoration: none;
+    color: #2D96C2;
+}
+
+.link_sections_link_card{
+    border-radius: 10px;
+    box-shadow:0 5px 5px rgba(0,0,0,.200);
+
+}
+
+.link_sections_link_card:hover{
+    border-radius: 10px ;
+    box-shadow:0 8px 8px rgba(0,0,0,.100);
+    transition: 1s;
+}
+
+.link_sections_link:hover > .link_section_img{
+    background-color: red;
+}
+
+.link_section_image{
+    width: 100px;
+    height: 100px;
+}
+
+.link_section_image img{
+    width: 100%;
+    height: 100%;
+}
+
+.about{
+    background-image: url("../img/index/pet-shop-grooming-kucing-anjing-memandikan-hewan-peliharaan-bg2-min.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+
+}
+
+.about_content{
+    background-color: #ffffff;
+    opacity: 0.7;
+}
+
+.download_app_img_one{
+    height: 680px;
+}
+
+.download_app_img_one img{
+    height: 100%;
+}
+
+.download_app_img_two{
+    padding: 20px 0 30px 0;
+    border-radius: 20px;
+    box-shadow:5px 5px 5px rgba(0,0,0,.200)
+}
+@media (min-width:768px) {
+    .download_app_img_two{
+        width: 340px;
+        height: 300px;
+    }
+}
+
+.download_app_img_two img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.video{
+    width: 100%;
+    height: 100vh;
+}
+
+footer{
+    background-color: #FCD02C;
+}
+
+.footer_img_one{
+    width:70px;
+}
+
+.footer_img_one img{
+    width:100%;
+}
+
+.footer_img_two{
+    width:200px;
+}
+
+.footer_img_two img{
+    width:100%;
+}
+
+.footer_link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer_link:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer_location iframe{
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+/* index end */
+
+
+
+
+
+
+
+/* pet grooming start */
+
+.anabul_problems{
+    background-image: url('../img/pet-grooming/pet-shop-indonesia-grooming-kucing-anjing-memandikan-hewan-peliharaan-4.png');
+    background-color: #2C94C0;
+    background-position: top center;
+    background-size:  cover;
+    background-repeat: no-repeat;
+}
+
+.anabul_problems_icon{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.grooming_maintain{
+    background-image: url('../img/pet-grooming/pet-shop-indonesia-grooming-kucing-anjing-memandikan-hewan-peliharaan-4dxfv.png');
+    background-color: #44A9D3;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grooming_maintain_icon{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.grooming_treatments{
+    background-image: url('../img/pet-grooming/pet-shop-indonesia-grooming-kucing-anjing-memandikan-hewan-peliharaan-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
+    position: relative;
+}
+
+.grooming_treatments:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #0a53be;
+    opacity: .6;
+    z-index: -1;
+}
+
+.grooming_treatments_border{
+    border-top: 10px solid #2980BB;
+}
+
+.grooming_treatments_layer_one{
+    padding: 40px 55px;
+}
+
+.grooming_treatments_layer_two{
+    padding: 40px 55px;
+    z-index: 1;
+    position: relative;
+}
+
+.grooming_treatments_layer_two:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #3D99C3;
+    border-radius: 30px;
+    opacity: .7;
+    z-index: -1;
+}
+
+
+
+
+
+
+.flip {
+    -webkit-perspective: 800;
+    perspective: 800;
+    position: relative;
+    text-align: center;
+}
+.flip .card.flipped {
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+.flip .card {
+    border-radius: 30px;
+    height: 450px;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    background-color: #628CB9;
+
+}
+.flip .card .face {
+    -webkit-backface-visibility: hidden ;
+    backface-visibility: hidden ;
+    z-index: 2;
+    position: absolute;
+    height: 100%;
+    border-radius: 30px;
+}
+.flip .card .back {
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+
+.face img{
+    border-radius: 60px;
+}
+
+
+.free_medicine_img{
+    border-radius: 20px;
+}
+
+.free_medicine_iframe{
+    border-radius: 20px;
+}
+
+
+.grooming_price_list_ul{
+    width: 600px;
+}
+@media (max-width: 768px) {
+    .grooming_price_list_ul{
+        width: 100%;
+    }
+}
+
+
+.grooming_in_card_bg{
+    background-color: #F0A601;
+}
+
+.video_review{
+    padding-top: 50px;
+}
+
+.grooming_sekarang{
+    background-color: #F0A601;
+}
+
+
+
+
+
+.test-section{
+    background-image: url('../img/pet-grooming/pet-shop-indonesia-grooming-kucing-anjing-memandikan-hewan-peliharaan-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 0;
+    z-index: 1;
+    position: relative;
+}
+
+.test-section:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #0a53be;
+    opacity: .6;
+    z-index: -1;
+}
+
+.emoji{
+    background-image: linear-gradient(to left,#AC2651, #4981E3);
+}
+/* pet grooming end */
+
+/* pet hotel page style start */
+#anabul_in{
+    background-image: url("../img/pet-hotel/Untitled-1-copy.png");
+    background-size: cover;
+    background-color: #2C93BF;
+}
+
+#pet_hotel_schedule{
+    background-image: url("../img/pet-hotel/PETSHOP-INDONESIA-PET-HOTEL_Moment1.jpg");
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+#pet_hotel_schedule::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    opacity: .6;
+    z-index: -1;
+}
+
+.pet_hotel_schedule_image{
+    border-radius: 25px;
+}
+
+#comfortable_pet_hotel{
+    background-image: url("../img/pet-hotel/pet-shop-indonesia-grooming-kucing-anjing-memandikan-hewan-peliharaan-4dxfv.png");
+    background-size: cover;
+    background-color: #44A9D3;
+    padding: 60px 120px 0;
+}
+@media (max-width: 768px) {
+    #comfortable_pet_hotel{
+        padding: 25px 45px 0!important;
+    }
+}
+
+.comfortable_pet_hotel_iframe iframe{
+    width: 560px;
+    height: 315px;
+    border-radius: 20px;
+}
+
+.facilities{
+    background-image: url("../img/pet-hotel/PETSHOP-INDONESIA-PET-HOTEL_Moment1.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 1;
+    position: relative;
+    padding: 50px 40px;
+}
+
+.facilities:after{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3D8EB3;
+    opacity: .6;
+    z-index: -1;
+    position: absolute;
+}
+
+.facilities_content{
+    padding: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.facilities_content:after{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3D8EB3;
+    opacity: .6;
+    z-index: -1;
+    position: absolute;
+    border-radius: 30px;
+}
+
+.facilities_col_height{
+    height: 40px;
+}
+/* pet hotel page style end */
+
+/* pet training page style start */
+
+.training_header{
+    background-image: url("../img/dog-training/ff478909-dceb-4465-9993-816d55634486.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.training_header:after{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .6;
+    z-index: -1;
+    position: absolute;
+
+}
+
+.favorite_dog{
+    padding: 80px 0;
+}
+
+.favorite_dog_img{
+    max-width: 400px;
+}
+
+.dog_training-services{
+    background-color: #F7B115;
+    padding: 30px 0 70px;
+}
+
+.customized_training{
+    padding: 40px 0;
+}
+
+.customized_training_card{
+    background-color: #F0A601;
+}
+
+.paket_training{
+    background-image: url("../img/dog-training/f8781339-b01b-4687-9978-d0329230947e.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    padding: 100px 0;
+}
+
+.paket_training:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: #FFFFFF;
+    opacity: .5;
+}
+
+.registration_requirements{
+    background-color: #F6F6F6;
+}
+
+
+
+@media (min-width: 768px) {
+    .registration_requirements_img{
+        position: relative;
+        z-index: 1;
+    }
+
+    .registration_requirements_img:after{
+        position: absolute;
+        content: '';
+        top: 0;
+        bottom: 0;
+        width: 90%;
+        height: 100%;
+        z-index: -1;
+        background-color: #F9BA2F;
+        margin-right: 10%;
+
+    }
+}
+
+
+
+.find_us{
+    background-color: #FCD02C;
+    padding: 80px 0;
+}
+
+
+/* pet training page style end */
+
+
+/* shop page style start */
+.shop_slider_img{
+    width: 100%;
+    height: 100vh;
+}
+
+.shop_sidebar_left{
+    height: 100vh;
+    background-color: #DAE5EB;
+    width: 20%;
+    overflow-y: scroll;
+    padding: 70px 16px 40px ;
+}
+
+.shop_sidebar_right{
+    margin-left: 21%;
+}
+
+.shop_sidebar_link a{
+    line-height: 15px;
+}
+
+@media(max-width: 992px)  {
+    .shop_sidebar_left{
+        width: 250px;
+    }
+
+    .shop_sidebar_right{
+        margin-left: 260px;
+    }
+}
+
+.product_card_img{
+    width: 100%;
+    max-height: 200px;
+}
+
+@media(max-width: 768px)  {
+    .shop_sidebar_right{
+        margin-left: 10px;
+    }
+}
+/* shop page style end */
+
+/* single product style start */
+.single_product_slider_image{
+    width: 400px;
+    height: 500px;
+}
+
+.suggest_product img{
+    width: 265px;
+    height: 250px;
+}
+
+.rating_img{
+    width: 70px;
+    height: 70px;
+}
+
+.active_review_icon{
+    color: #ED961C;
+}
+/* single product style end */
+
+
+/* pet-sitting-services start */
+
+.pet_set_hero {
+    background-image: url("../img/pet-sitting-services/The-Best-Pet-Sitting-Service-in-Dallas-Austin-TX.jpg");
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    background-position: top left;
+    background-size: cover;
+}
+
+.pet_set_hero_content{
+    width: 500px;
+    position: relative;
+    top: 25vh;
+    left: 15%;
+    border-top: 10px solid #693594;
+    z-index: 1;
+}
+
+.pet_set_hero_content:after{
+    position: absolute;
+    content: '';
+    background-color: #FFFFFF;
+    opacity: .5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+@media screen and (max-width: 1280px) and (min-width: 795px){
+    .pet_set_hero {
+        background-position: top right;
+    }
+}
+
+@media(max-width:794px){
+    .pet_set_hero {
+        background-position: top left;
+        height: 400px;
+    }
+
+    .pet_set_hero_content{
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+}
+/* pet-sitting-services end */
+
+

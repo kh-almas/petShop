@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="assets/img/index/FAVICON-png-copy.png">
+
+  <!-- Bootstrap CSS -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/slick/css/slick.css"/>
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/slick/css/slick-theme.css"/>
+  <!-- fontawesome -->
+  <link rel="stylesheet" type="text/css" href="assets/vendor/fontawesome-free-5.15.3/css/all.min.css"/>
+  <!-- custom css -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <title>petshopindonesia</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-white" aria-label="First navbar example">
+    <div class="container-fluid mx-4">
+      <a class="navbar-brand fs-4" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExample01">
+        <ul class="nav nav-pills ms-auto mb-2 small_nav">
+          <li class="nav-item"><a href="index.html" class="nav-link d-inline" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="shop.html" class="nav-link d-inline active">Shop Now</a></li>
+          <li class="nav-item">
+            <div class="flex-shrink-0 dropdown">
+              <a href="#" class="nav-link dropdown-toggle d-inline" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+              <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                <li><a class="dropdown-item" href="pet-grooming.html">Pet Grooming</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="pet-hotel.html">Pet Hotel</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="dog-training.html">Pet Training</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="pet-sitting-services.html">Pet SITTER</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Pet Clinic</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item"><a href="index.html#about" class="nav-link d-inline">About</a></li>
+          <li class="nav-item"><a href="index.html#find_us" class="nav-link d-inline">Find Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="overflow-visible">
+    <div class="d-flex">
+      <div class="bg-light sticky-top shop_sidebar_left me-3 hide-scrollbar position-fixed d-none d-md-block" id="shop_sidebar">
+        <div class="d-flex justify-content-end d-md-none">
+          <p class="pointer mb-1" onclick="hide_shop_sidebar()"><i class="fas fa-times"></i></p>
+        </div>
+        <button type="button" class="btn btn-dark mb-3 mb-md-0 w-100" data-bs-toggle="modal" data-bs-target="#searchModal">
+          <i class="fas fa-search"></i>
+          cari
+        </button>
+        <hr>
+        <ul class="nav flex-column mb-auto shop_sidebar_link">
+          <li class="nav-item">
+            <a href="#" class="nav-link active" aria-current="page">
+              Semua Produk
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Produk Unggulan
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Diskon
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Produk Bundle
+            </a>
+          </li>
+        </ul>
+        <hr>
+        <ul class="nav flex-column mb-auto shop_sidebar_link">
+          <li class="nav-item">
+            <h5>Kategori</h5>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Grooming Supplies
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Dog Food (Dry)
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Pet Toys
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Cat Litter
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Vitamins & Supplements
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Wet food (Cat)
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Wet Food (Dog)
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Dog Snack
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Cat Snack
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Rabbit
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Hamster
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Reptile
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Fish
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Small Animal
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Sale %
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Beds & Furniture
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Cat Food (Dry)
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Collars, Harness, & Leash
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Cleaning & Odor Removers
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Milk Replacer
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Veterinary Diets
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Deodorizers
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Shampoos & Conditioners
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Live Small Pets
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Pet Services
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Travel Carriers
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Dental Care & Wellness
+            </a>
+          </li>
+        </ul>
+        <hr>
+        <ul class="nav flex-column mb-auto shop_sidebar_link">
+          <li class="nav-item">
+            <h5>Urutkan produk berdasarkan</h5>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Unggulan
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Terbaru
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Terlama
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Terpopuler
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Harga Terendah
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Harga Tertinggi
+            </a>
+          </li>
+          <li>
+            <a href="#" class="nav-link link-dark">
+              Nama Produk (A-Z)
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="pe-3 shop_sidebar_right">
+        <div class="my-5">
+          <div class="d-flex justify-content-between justify-content-md-end">
+            <div class="d-md-none">
+              <button class="btn btn-dark" onclick="show_shop_sidebar()"><i class="fas fa-ellipsis-h"></i></button>
+            </div>
+            <div>
+              <form action="" style="width: 400px;">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="search">
+                  <button class="input-group-text" type="submit"><i class="fas fa-search"></i></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row g-3 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xxl-6">
+          <div class="col">
+            <div class="card">
+              <img class="product_card_img" src="assets/img/pet-grooming/testimoni-review-grooming-petshop-indonesia-salon-kucing-anjing-perawatan-hewan-peliharaan-6.jpg" alt="img">
+              <div class="card-body">
+                <a href=""><h5 class="text-truncate" style="max-width: 230px;">Equilibrio kitten repack 1 kg</h5></a>
+                <p>IDR 65,000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="product_card_img" src="assets/img/pet-grooming/testimoni-review-grooming-petshop-indonesia-salon-kucing-anjing-perawatan-hewan-peliharaan-6.jpg" alt="img">
+              <div class="card-body">
+                <a href=""><h5 class="text-truncate" style="max-width: 230px;">Equilibrio kitten repack 1 kg</h5></a>
+                <p>IDR 65,000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="product_card_img" src="assets/img/pet-grooming/testimoni-review-grooming-petshop-indonesia-salon-kucing-anjing-perawatan-hewan-peliharaan-6.jpg" alt="img">
+              <div class="card-body">
+                <a href=""><h5 class="text-truncate" style="max-width: 230px;">Equilibrio kitten repack 1 kg</h5></a>
+                <p>IDR 65,000</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="product_card_img" src="assets/img/pet-grooming/testimoni-review-grooming-petshop-indonesia-salon-kucing-anjing-perawatan-hewan-peliharaan-6.jpg" alt="img">
+              <div class="card-body">
+                <a href=""><h5 class="text-truncate" style="max-width: 230px;">Equilibrio kitten repack 1 kg</h5></a>
+                <p>IDR 65,000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- search Modal -->
+  <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class=" ms-auto">
+          <i class="fas fa-arrow-left mt-2 p-2 bg-light rounded-circle border me-2 pointer" data-bs-dismiss="modal" aria-label="Close"></i>
+        </div>
+        <div class="modal-body">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Cari Kategori</label>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-primary">Find</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <!-- for slider -->
+  <script type="text/javascript" src="assets/vendor/slick/js/slick.min.js"></script>
+  <script type="text/javascript" src="assets/js/slider.js"></script>
+  <!-- for style -->
+  <script type="text/javascript" src="assets/js/style.js"></script>
+</body>
+</html>
